@@ -1,0 +1,39 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+::selection{
+    color: white;
+    background: tomato;
+}
+
+/* TYPOGRAPHY */
+
+body{
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3{
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 3.6rem;
+}
+
+p{
+    margin-top: 0;
+}
