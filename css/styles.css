@@ -14,6 +14,7 @@ html{
 /* TYPOGRAPHY */
 
 body{
+    margin: 0;
     font-family: "Roboto Flex", sans-serif;
     font-optical-sizing: auto;
     font-size: 1.8rem;
@@ -37,3 +38,26 @@ h2{
 p{
     margin-top: 0;
 }
+
+/* NAV */
+ .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1f2937;
+    color: #f9fAf8;
+ }
+
+ .nav .link{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+ }
+
+ .link__item a{
+    text-decoration: none;
+ }
+
+ .link__item a:visited{
+    color: inherit;
+ }
