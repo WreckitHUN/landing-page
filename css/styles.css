@@ -266,4 +266,13 @@ p{
    
 }
 
+/* FOOTER */
+
+footer{
+   background: #1f2937;
+   text-align: center;
+   color: var(--color-secondary);
+   padding: 4rem 2rem;
+}
+
 
