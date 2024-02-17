@@ -92,9 +92,14 @@ p{
     text-decoration: none;
  }
 
+ 
  .link__item a:visited{
     color: var(--color-secondary);
  }
+
+ .link__item a:hover{
+   color: var(--color-primary);
+}
 
  /* HEADER */
 
@@ -130,11 +135,26 @@ p{
     padding: 1rem 2.5rem;
     text-transform: uppercase;
     white-space: nowrap;
+    transition: all 0.3s;
  }
 
  .btn--primary{
     background: #3882f6;
     color: var(--color-primary);
+ }
+
+ .btn--primary:hover{
+   background: var(--color-primary);
+   color: #3882f6;
+ }
+
+ .btn--outline{
+   border: 2px solid var(--color-primary);
+ }
+
+ .btn--outline:hover{
+   background: var(--color-primary);
+   color: #3882f6;
  }
 
  /* CARD */
