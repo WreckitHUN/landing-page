@@ -44,6 +44,7 @@ p{
     margin-top: 0;
 }
 
+
 /* CONTAINER */
 
 .container{
@@ -117,4 +118,47 @@ p{
  .btn--primary{
     background: #3882f6;
     color: var(--color-primary);
+ }
+
+ /* CARD */
+
+ .card{
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    flex: 1;
+ }
+
+ .card__header{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 2.5rem;
+ }
+
+ .card__body{
+    padding: 1rem 2.5rem;
+ }
+
+ .card--primary .card__header{
+    background: #3882f6;
+    color: var(--color-primary);
+ }
+
+ /* CARD BLOCK */
+
+ .card-block{
+    padding: 5rem 2rem;
+ }
+
+ .card-block>.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ .cards{
+    display: flex;
+    margin-top: 10rem;
+    gap: 2rem;
  }
